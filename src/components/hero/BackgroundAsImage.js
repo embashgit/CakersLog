@@ -68,9 +68,6 @@ export default () => {
      <NavLink href="#">
        Our Products
       </NavLink>
-      <NavLink href="#">
-        About the CEO
-      </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       <PrimaryLink href="/#">

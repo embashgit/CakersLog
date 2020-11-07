@@ -26,7 +26,7 @@ export default () => {
     <AnimationRevealPage>
       <Hero/>
       <MainFeature
-        subheading={<Subheading>Established Since 2014</Subheading>}
+        subheading={<Subheading>What we Do!</Subheading>}
         heading={
           <>
             We've been serving for
@@ -35,11 +35,10 @@ export default () => {
         }
         description={
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            From birthday and retirement parties to big backyard BBQs, social events cover a wide range of events (and food). Appetizers, bartenders and balloons are just some of the services we provide
             <br />
             <br />
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Our services also cut accross small office meetings and trainings to large regional events, the ability to have great food delivered on site saves time & money while allowing you to focus on the more important task at hand, your business! Continental breakfasts, box lunches and buffets are all popular for corporate catering.
           </Description>
         }
         buttonRounded={false}
@@ -92,7 +91,7 @@ export default () => {
       />
       <MainFeature2
         subheading={<Subheading>A Reputed Brand</Subheading>}
-        heading={<>Why <HighlightedText>Choose Us ?</HighlightedText></>}
+        heading={<>Who <HighlightedText>we are</HighlightedText></>}
         statistics={[
           {
             key: "Orders",
@@ -108,9 +107,10 @@ export default () => {
           }
         ]}
         primaryButtonText="Order Now"
-        primaryButtonUrl="https://order.now.com"
+        primaryButtonUrl="#"
         imageInsideDiv={false}
-        imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
+        // imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://res.cloudinary.com/embash-construction/image/upload/c_scale,h_376,q_auto,w_668/v1604781486/Cakelog/PHOTO-2020-09-13-18-59-38_djlynp.jpg"
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
         imageContainerCss={tw`md:w-1/2 h-auto`}
         imageDecoratorBlob={true}

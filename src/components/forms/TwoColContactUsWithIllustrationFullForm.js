@@ -40,7 +40,7 @@ const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
 export default ({
   subheading = "Contact Us",
   heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
-  description = "Our Customers are all that matters",
+  description = "Our Customers are all that matters.....",
   submitButtonText = "Send",
   formAction = "#",
   formMethod = "get",
@@ -50,8 +50,7 @@ export default ({
 
   return (
     <Container id="contact">
-      <TwoColumn>
-        <ImageColumn>    
+      <TwoColumn>  
           <ContactDetails
             cards={[
               {
@@ -95,7 +94,6 @@ export default ({
               }
             ]}
           /> 
-        </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             {subheading && <Subheading><Image  imageSrc={EmailIllustrationSrc} /></Subheading>}
