@@ -107,7 +107,7 @@ className="shadow-lg h-16 w-16 md:h-24 sm:w-18 md:w-24 rounded-full mx-auto"
               
               </SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <a href="#testimonies"><PrimaryAction>Read Customer Stories</PrimaryAction></a>
           </LeftColumn>
           
         </TwoColumn>
