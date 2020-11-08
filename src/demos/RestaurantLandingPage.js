@@ -25,7 +25,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero/>
-      <MainFeature
+      <div id="whatwedo"><MainFeature
         subheading={<Subheading>What we Do!</Subheading>}
         heading={
           <>
@@ -50,15 +50,15 @@ export default () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
-      />
+      /></div>
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
-      <TabGrid
+      <div id="Product"><TabGrid
         heading={
           <>
             Checkout our products.
           </>
         }
-      />
+      /></div>
       <Features
         heading={
           <>
@@ -89,7 +89,7 @@ export default () => {
         imageContainerCss={tw`p-2!`}
         imageCss={tw`w-20! h-20!`}
       />
-      <MainFeature2
+      <div id="whoweare"><MainFeature2
         subheading={<Subheading>A Reputed Brand</Subheading>}
         heading={<>Who <HighlightedText>we are</HighlightedText></>}
         statistics={[
@@ -107,7 +107,7 @@ export default () => {
           }
         ]}
         primaryButtonText="Order Now"
-        primaryButtonUrl="#"
+        primaryButtonUrl="#contactus"
         imageInsideDiv={false}
         // imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
         imageSrc="https://res.cloudinary.com/embash-construction/image/upload/c_scale,h_376,q_auto,w_668/v1604781486/Cakelog/PHOTO-2020-09-13-18-59-38_djlynp.jpg"
@@ -116,14 +116,14 @@ export default () => {
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 md:w-32 md:h-32 -translate-x-1/2 opacity-25`}
         textOnLeft={true}
-      />
+      /></div>
       <Testimonial
         subheading=""
         heading={<>Customers <HighlightedText>Love Us.</HighlightedText></>}
       />
-      <DownloadApp id="contactus"
+      <div id="contactus" ><DownloadApp
         text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
-      />
+      /></div>
       <Footer />
     </AnimationRevealPage>
   );

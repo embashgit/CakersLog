@@ -2,7 +2,7 @@ import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+// import { Map, GoogleApiWrapper } from 'google-maps-react';
 import ComponentRenderer from "ComponentRenderer.js";
 // import MainLandingPage from "MainLandingPage.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -37,7 +37,4 @@ const  App =()=> {
   );
 }
 
-export default GoogleApiWrapper({
-  // apiKey: '01955D-BFF32F-C78A00'
-  apiKey:'ac1684d971c32541'
-})(App);
+export default App;

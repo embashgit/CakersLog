@@ -64,9 +64,9 @@ export default ({
     Starters: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
+          "https://res.cloudinary.com/embash-construction/image/upload/v1604781486/Cakelog/PHOTO-2020-09-13-18-59-35_sv6xr5.jpg",
+        title: "Rice and Beans",
+        content: "With Fried plantain and Chicken",
         rating: "5.0",
         reviews: "87",
         url: "#"
@@ -109,18 +109,18 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
+          "https://res.cloudinary.com/embash-construction/image/upload/v1602337423/Cakelog/20190711_143047_ruvup9.jpg",
+        title: "Small Chops",
+        content: "Mini pack small chops",
         rating: "5.0",
         reviews: "61",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
+          "https://res.cloudinary.com/embash-construction/image/upload/v1602337441/Cakelog/20200625_202638_sdemmk.jpg",
+        title: "Coporate Lunch",
+        content: "Coporate Lunch",
         rating: "4.2",
         reviews: "95",
         url: "#"
@@ -137,7 +137,7 @@ export default ({
     ],
     Main: getRandomCards(),
     Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    // Desserts: getRandomCards()
   }
 }) => {
   /*
@@ -205,7 +205,7 @@ export default ({
                       }}
                       transition={{ duration: 0.3 }}
                     >
-                      <CardButton>Buy Now</CardButton>
+                      <a href="#contactus"><CardButton >Buy Now</CardButton></a>
                     </CardHoverOverlay>
                   </CardImageContainer>
                   <CardText>
@@ -230,10 +230,9 @@ const getRandomCards = () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Chicken Chilled",
-      content: "Chicken Main Course",
-      price: "$5.99",
+        "https://res.cloudinary.com/embash-construction/image/upload/v1602337532/Cakelog/20200912_122356_aueskf.jpg",
+      title: "Summer Birthday Cake",
+      content: "Summer Birthday cake",
       rating: "5.0",
       reviews: "87",
       url: "#"
@@ -243,7 +242,6 @@ const getRandomCards = () => {
         "https://images.unsplash.com/photo-1582254465498-6bc70419b607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
       title: "Samsa Beef",
       content: "Fried Mexican Beef",
-      price: "$3.99",
       rating: "4.5",
       reviews: "34",
       url: "#"
@@ -253,27 +251,24 @@ const getRandomCards = () => {
         "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
       title: "Carnet Nachos",
       content: "Chilli Crispy Nachos",
-      price: "$3.99",
       rating: "3.9",
       reviews: "26",
       url: "#"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Guacamole Mex",
-      content: "Mexican Chilli",
-      price: "$3.99",
+        "https://res.cloudinary.com/embash-construction/image/upload/v1602337441/Cakelog/20200625_202638_sdemmk.jpg",
+      title: "Coporate Lunch",
+      content: "Coporate Lunch",
       rating: "4.2",
       reviews: "95",
       url: "#"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      title: "Chillie Cake",
-      content: "Deepfried Chicken",
-      price: "$2.99",
+        "https://res.cloudinary.com/embash-construction/image/upload/v1602337423/Cakelog/20190711_143047_ruvup9.jpg",
+      title: "Small Chops",
+      content: "Mini pack small chops",
       rating: "5.0",
       reviews: "61",
       url: "#"
@@ -283,7 +278,6 @@ const getRandomCards = () => {
         "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
       title: "Nelli",
       content: "Hamburger & Fries",
-      price: "$7.99",
       rating: "4.9",
       reviews: "89",
       url: "#"
@@ -293,7 +287,6 @@ const getRandomCards = () => {
         "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
       title: "Jalapeno Poppers",
       content: "Crispy Soyabeans",
-      price: "$8.99",
       rating: "4.6",
       reviews: "12",
       url: "#"
@@ -303,7 +296,6 @@ const getRandomCards = () => {
         "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
       title: "Cajun Chicken",
       content: "Roasted Chicken & Egg",
-      price: "$7.99",
       rating: "4.2",
       reviews: "19",
       url: "#"

@@ -59,18 +59,18 @@ const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-    <NavLink href="#">
+    <NavLink href="#whoweare">
       Who we are
     </NavLink>
-      <NavLink href="#">
+      <NavLink href="#whatwedo">
         What we do
       </NavLink>
-     <NavLink href="#">
+     <NavLink href="#Product">
        Our Products
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">
+      <PrimaryLink href="#contactus">
         Contact Us
       </PrimaryLink>
     </NavLinks>
@@ -99,7 +99,7 @@ className="shadow-lg h-16 w-16 md:h-24 sm:w-18 md:w-24 rounded-full mx-auto"
               <br />
               <SlantedBackground>
               <Typed
-                  strings={['Cakes and food for all locations','Contact us today!','...for Cakes and Confectionary']}
+                  strings={['Cakes and food for all locations','Contact us today!','...for Cakes and Confectionaries']}
                   typeSpeed={120}
               
               backSpeed={80}
