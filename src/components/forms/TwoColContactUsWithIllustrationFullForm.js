@@ -68,7 +68,7 @@ const handleChange = (e)=>{
                       <AddressLine>Shop 2b Landmark plaza</AddressLine>
                       <AddressLine>Ibrahim Zaki road U/Rimi Kaduna</AddressLine>
                     </Address>
-                    <Email>cakelogcakescatering@gmail.com</Email>
+                    <Email>sample@gmail.com</Email>
                     <Phone>+234 (0)703 138-9456</Phone>
                   </>
                 )
@@ -81,7 +81,7 @@ const handleChange = (e)=>{
                       <AddressLine>74 Peachtree Ave.</AddressLine>
                       <AddressLine>Dyersburg, TN 38024</AddressLine>
                     </Address>
-                    <Email>cakelogcakescatering@gmail.com</Email>
+                    <Email>sample@gmail.com</Email>
                     <Phone>+234 (0)703 138-9456</Phone>
                   </>
                 )
