@@ -46,7 +46,7 @@ export default ({
       We have been doing this <wbr /> since <span tw="text-primary-500">2020.</span>
     </>
   ),
-  description = "At cake log, we’re tied in with presenting crisp food, regardless of whether it implies going the additional mile. When you stroll through our entryways, we do what we can to make everybody feel comfortable in light of the fact that our services stretch out through your locale",
+  description = "At cake hub, we’re tied in with presenting crisp food, regardless of whether it implies going the additional mile. When you stroll through our entryways, we do what we can to make everybody feel comfortable in light of the fact that our services stretch out through your locale",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "#contactus",
   imageSrc = StatsIllustrationSrc,
